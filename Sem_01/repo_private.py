@@ -1,8 +1,9 @@
 # Token for working on github (replace yours here given are placeholder)
 
 import os
-print(os.path.dirname(os.path.realpath(__file__)))
-this_dir = os.path.dirname(os.path.realpath(__file__))
+dir = "/content/drive/MyDrive/repo_keys"
+print(os.path.dirname(os.path.realpath(dir)))
+this_dir = os.path.dirname(os.path.realpath(dir))
 
 GIT_KEY=""
 
